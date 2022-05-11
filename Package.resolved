@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Segment",
-        "repositoryURL": "https://github.com/segmentio/analytics-ios.git",
-        "state": {
-          "branch": null,
-          "revision": "187faa897c826fe0954124da116db3318242f7c3",
-          "version": "4.1.4"
-        }
-      },
-      {
-        "package": "AppsFlyerLib",
-        "repositoryURL": "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git",
-        "state": {
-          "branch": null,
-          "revision": "6a15b1455357725e11d086bea8b2cd4ec9d0dcef",
-          "version": "6.5.2"
-        }
+  "pins" : [
+    {
+      "identity" : "analytics-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/segmentio/analytics-ios.git",
+      "state" : {
+        "revision" : "187faa897c826fe0954124da116db3318242f7c3",
+        "version" : "4.1.4"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "ex-glo-apple-appsflyer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/damoteGlo/ex-glo-apple-appsflyer.git",
+      "state" : {
+        "branch" : "glo-develop",
+        "revision" : "69ee8247b2c1f2e1b372e010a12d30b2e41140cb"
+      }
+    }
+  ],
+  "version" : 2
 }
