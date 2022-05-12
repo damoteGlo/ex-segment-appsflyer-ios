@@ -1,11 +1,8 @@
 <img src="https://www.appsflyer.com/wp-content/uploads/2016/11/logo-1.svg"  width="200">
 
-# AppsFlyer integration for Segment.
+# AppsFlyer integration for Segment as managed by Glo.
 
-## This is a Segment wrapper for AppsFlyer SDK that is built with iOS SDK v6.5.2. 
-
-[![Version](https://img.shields.io/cocoapods/v/segment-appsflyer-ios.svg?style=flat)](http://cocoapods.org/pods/segment-appsflyer-ios)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+## This is a Segment wrapper for AppsFlyer SDK that is built with iOS SDK v6.6.0. 
 
 
 ----------
