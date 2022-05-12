@@ -15,14 +15,14 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/segmentio/analytics-ios.git", from: "4.0.0"),
-        .package(url: "https://github.com/damoteGlo/ex-glo-apple-appsflyer.git", branch: "glo-develop")
+        .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Strict.git", exact: "6.6.0")
     ],
     targets: [
         .target(
             name: "segment-appsflyer-ios",
             dependencies: [
                 .product(name: "Segment", package: "analytics-ios"),
-                .product(name: "AppsFlyerLib", package: "ex-glo-apple-appsflyer"),
+                .product(name: "AppsFlyerLib-Strict", package: "AppsFlyerFramework-Strict"),
                 ],
             path: "segment-appsflyer-ios/Classes",
             publicHeadersPath: ""
