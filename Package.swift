@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "segment-appsflyer-ios",
+    name: "Glo.Segment-AppsFlyer",
     platforms: [
         .iOS(.v15)
     ],
